@@ -46,6 +46,68 @@ nlu:
       - yes im having stomach pain
       - my stomach is churning
 
+  - intent: frequent_urination
+    examples: |
+      - Yes i'm having very frequent urination
+      - Yes, more than normal
+      - I'm urinating more frequently
+
+  - intent: weight_loss
+    examples: |
+      - I am having weight loss
+      - weight problems
+      - weight loss
+      - weight decreasing
+      - weight reduce
+
+
+  - intent: headache
+    examples: |
+      - my head hurts
+      - my head is hurting
+      - i have a headache
+      - i am having pain in forehead
+      - i have head pain
+      - pain in head
+
+  - intent: migrane
+    examples: |
+      - I have pain only on one side of my head
+      - It hurts only on one side
+      - i have a migrane 
+      - migrane headache
+      - migrane
+
+  - intent: cluster_headache
+    examples: |
+      - I'm having pain near my eyes
+      - i have a cluster ache
+      - cluster headache
+      - cluster
+
+  - intent: tension_headache
+    examples: |
+      - It hurts near the back of my head
+      - It hurst on the back side
+      - Its hurtin around the head
+      - i'm having pain around the head
+      - i have tension pain
+      - tension headache
+      - tension
+
+  - intent: cough
+    examples: |
+      - I have a cough
+      - I'm sneezing a lot
+      - I have a sore throat
+
+  - intent: cold_sym
+    examples: |
+      - My nose is choked
+      - My chest is aching
+      - My nose is itching
+      - My throat is itching
+
 # Above lines are new
   - intent: greet
     examples: |
@@ -83,24 +145,6 @@ nlu:
       - am I talking to a bot?
       - am I talking to a human?
       - who are you
-
-  - intent: cold
-    examples: |
-      - I have a cough
-      - I have a cold
-
-  - intent: cold_sym
-    examples: |
-      - My nose is choked
-      - My chest is aching
-      - My nose is itching
-      - My throat is itching
-
-  - intent: cold_confirm
-    examples: |
-      - yes i am having cold and cough
-      - yes i am having cold
-      - yes i am having cough
 
   - intent: med_not_helped
     examples: |
@@ -162,28 +206,3 @@ nlu:
       - yes it is hurting
       - it is bleeding
       - blood is coming out
-
-  - intent: headache
-    examples: |
-      - i have a headache
-      - i am having pain in forehead
-      - i have head pain
-      - pain in head
-
-  - intent: migrane
-    examples: |
-      - i have a migrane headache
-      - migrane headache
-      - migrane
-
-  - intent: cluster_headache
-    examples: |
-      - i have a cluster headache
-      - cluster headache
-      - cluster
-
-  - intent: tension_headache
-    examples: |
-      - i have a tension headache
-      - tension headache
-      - tension

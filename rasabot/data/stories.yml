@@ -19,6 +19,44 @@ stories:
       - intent: diarrhea_3_growling_abdomen
       - action: utter_diarrhea_med
 
+  - story: diabetes_path
+    steps:
+      - intent: weight_loss
+      - action: utter_weight_loss
+      - intent: frequent_urination
+      - action: utter_frequent_urination
+
+  - story: headache_path
+    steps:
+      - intent: headache
+      - action: utter_headache_type
+      - action: utter_headache_info_migrane
+      - action: utter_headache_info_cluster
+      - action: utter_headache_info_tension
+
+  - story: migrane_path
+    steps:
+      - intent: migrane
+      - action: utter_migrane
+
+  - story: cluster_headache_path
+    steps:
+      - intent: cluster_headache
+      - action: utter_cluster_headache
+
+  - story: tension_headache_path
+    steps:
+      - intent: tension_headache
+      - action: utter_tension_headache
+
+  - story: cold_sym_path
+    steps:
+      - intent: cough
+      - action: utter_cold_confirm
+      - intent: cold_sym
+      - action: utter_cold_sym
+      - action: utter_cold_med
+
   # - story: kidney stone path
   #   steps:
   #     - intent: my urine is yellow/unclear/blood
@@ -50,14 +88,6 @@ stories:
       - intent: well
       - action: utter_well
 
-  - story: cold_sym_path
-    steps:
-      - intent: cold_sym
-      - action: utter_cold_sym
-      - intent: cold_confirm
-      - action: utter_cold_med
-      - action: utter_feedback
-
   - story: med_not_helped_path
     steps:
       - intent: med_not_helped
@@ -83,22 +113,3 @@ stories:
       - intent: fracture_details
       - action: utter_fracture_confirm
 
-  - story: headache_path
-    steps:
-      - intent: headache
-      - action: utter_headache_type
-
-  - story: migrane_path
-    steps:
-      - intent: migrane
-      - action: utter_migrane
-
-  - story: cluster_headache_path
-    steps:
-      - intent: cluster_headache
-      - action: utter_cluster_headache
-
-  - story: tension_headache_path
-    steps:
-      - intent: tension_headache
-      - action: utter_tension_headache

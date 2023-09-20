@@ -42,5 +42,6 @@ For questions or inquiries, please contact:
 
 ## TEJOVAT Team
 
-[Rishabh Ranjan](mailto:rishabh9050@gmail.com).
+[Rishabh Ranjan](mailto:rishabh9050@gmail.com)
+
 [Shivam Nath](mailto:shivamnath027@gmail.com)

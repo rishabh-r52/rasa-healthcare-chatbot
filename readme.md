@@ -15,12 +15,12 @@ This repository contains the source code and documentation for our Healthcare Ch
 
 To get started with the chatbot, follow these steps:
 
-# NOTE: This project was built using dependencies on Python 3.9.0
-
 1. Clone this repository to your local machine.
 2. Install the required dependencies using `pip install -r requirements.txt`.
 3. Run the rasa server using `rasa run -m models --endpoints endpoints.yml --port 5002 --credentials credentials.yml`.
 4. Run the web application using `flask run`.
+
+### NOTE: This project was built using dependencies on Python 3.9.0
 
 ## Usage
 
